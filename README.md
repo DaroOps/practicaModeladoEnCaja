@@ -1,0 +1,1 @@
+![](https://github.com/DaroOps/practicaModeladoEnCaja/blob/ejercicio_3/img/enunciado.png)
