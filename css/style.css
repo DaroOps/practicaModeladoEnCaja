@@ -2,4 +2,52 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    background-color: white;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links{
+    display: flex;
+}
+
+.links a{
+   
+    color: rgb(63, 63, 63);
+    padding: 0 0.5rem;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.laguage{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box-language{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+
+.box-language a{
+    background-color: gray;
+    color: white;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0 0.5rem 0 0;
+    font-size: smaller;
 }
