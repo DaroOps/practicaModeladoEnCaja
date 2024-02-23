@@ -14,29 +14,31 @@
 
 .links{
     display: flex;
+    flex-grow: 6;
+    justify-content: center;
+    gap: 1rem;
 }
 
-.links a{
-   
+.links a{ 
     color: rgb(63, 63, 63);
-    padding: 0 0.5rem;
-
 }
 
 .logo{
     display: flex;
     align-items: center;
+    flex-grow: 1;
 }
 
 .laguage{
     display: flex;
-    justify-content: space-evenly;
+    justify-content:flex-end;
+    flex-grow: 1;
 }
 
 .box-language{
     display: flex;
     color: white;
-    justify-content: space-between;
+    
 }
 
 .box-language a{
