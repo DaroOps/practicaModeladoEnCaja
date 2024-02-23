@@ -19,7 +19,8 @@ box-sizing: border-box;
 
 .center{
     width: 30%;
-    height:23%;
+    height:auto;
     background-color: #dddd;
+    overflow: hidden;
 }
 
