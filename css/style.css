@@ -1,4 +1,48 @@
 *{
     margin: 0;
     padding: 0;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+.container{
+    display: flex;
+}
+
+.menu{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    gap: 0.1rem;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    background-color: #dddd;
+    font-size:small;
+}
+
+.item p{
+    padding: 0.7rem;
+    text-align: center;
+}
+
+.link{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+    background-color: white;
+}
+.link a{
+    color: black;
+    text-align: center;
+    padding: 0 0.2rem;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 5;
 }
