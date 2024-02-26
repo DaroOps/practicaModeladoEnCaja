@@ -1,1 +1,1 @@
-![](https://github.com/DaroOps/practicaModeladoEnCaja/blob/ejercicio_6/img/enunciado.png)
+![](https://github.com/DaroOps/practicaModeladoEnCaja/blob/ejercicio_6/storage/img/enunciado.png)
