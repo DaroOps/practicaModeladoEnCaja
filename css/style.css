@@ -1,5 +1,129 @@
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+:root{
+    max-width: 1000px;
+    width: 100%;
+}
+
+.page {
+    height: auto;
+    background-color: white;
+    position: relative;
+}
+
+.page-head {
+    background-color: salmon;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+    color: white;
+    padding: 3rem;
+}
+
+.nav-bar {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    background-color: #1bbc9b;
+}
+
+.left,
+.right {
+    font-size: 0.8em;
+    display: flex;
+    margin: 0 1rem 0 1.5rem;
+}
+
+.item {
+    padding: 0.7rem 1.2rem;
+}
+.main-section{
+    display: flex;
+}
+.mr-aside{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: #f1f1f1;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.aside-main-img{
+    width: 100%;
+    background-color: #cccccc;
+    display: flex;
+    aspect-ratio: 1/1;
+}
+.text-img-placeholder-size{
+    width: 100%;
+    text-align: center;
+    align-self: center;
+    font-size: 150%;
+    font-weight: bold;
+    color: #959595;
+}
+
+.aside-banner{
+    width: 100%;
+    background-color: #cccccc;
+    display: flex;
+    aspect-ratio: 2/1;
+}
+
+.aside-text{
+    font-size: 0.8rem;
+}
+
+.main-page{
+    width: 70%;
+    padding: 0px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.main-page{
+    padding-bottom: 89px;
+}
+
+.main-banner{
+    width: 100%;
+    background-color: #cccccc;
+    display: flex;
+    aspect-ratio: 3.34/1;
+}
+
+.article{
+    border-bottom: 3px solid rgb(112, 112, 112);
+}
+.article:first-child{
+    padding-top: 16px;
+}
+.article-title{
+    padding: 0 0 0.8rem 0;
+}
+.article-subtitle{
+    padding: 0rem 0 16px 0; 
+}
+.article-text{
+    padding: 1rem 0 1rem 0;
+}
+
+footer{
+    bottom: 0;
+    position: fixed;
+    max-width: 1000px;
+    width: 100%;
+    padding: 1.5rem;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    background-color: #dddddd;
 }
